@@ -27,7 +27,7 @@ Get-ChildItem -Recurse -Filter .gitkeep | Remove-Item
 ### Run Flutter command to get all the dependencies
 
 ```bash
-run flutter pub get
+flutter pub get
 ```
 
 ## 📖 Overview
