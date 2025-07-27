@@ -17,6 +17,19 @@ cd yourprojectdirectory
 rm .git
 ```
 
+### Remove the all of the .gitkeep temporary file
+
+**Windows:**
+```bash
+Get-ChildItem -Recurse -Filter .gitkeep | Remove-Item
+rm .git
+```
+
+```bash
+cd yourprojectdirectory
+rm .git
+```
+
 ### Run Flutter command to get all the dependencies
 
 ```bash
