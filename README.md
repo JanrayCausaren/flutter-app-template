@@ -123,6 +123,7 @@ git clone https://github.com/JanrayCausaren/flutter-app-template.git
 ### Remove the existing Git history so it becomes a fresh project:
 
 ```bash
+cd yourprojectdirectory
 rm -rf .git
 ```
 
