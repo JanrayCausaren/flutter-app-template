@@ -31,6 +31,15 @@ Every app needs a **unique identity** (like how every person has a unique name).
 
 ## 🔧 Quick Start
 
+### Clone this Repository
+
+```bash
+git clone https://github.com/your-username/flutter_app_template.git
+cd flutter_app_template
+
+
+### Renaming
+
 Choose one of two renaming methods:
 
 ### ✅ Method 1: Automated Renaming (Recommended) using Flutter Package
