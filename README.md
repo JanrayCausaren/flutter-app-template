@@ -31,15 +31,6 @@ Every app needs a **unique identity** (like how every person has a unique name).
 
 ## 🔧 Quick Start
 
-### Clone this Repository
-
-```bash
-git clone https://github.com/your-username/flutter_app_template.git
-cd flutter_app_template
-
-
-### Renaming
-
 Choose one of two renaming methods:
 
 ### ✅ Method 1: Automated Renaming (Recommended) using Flutter Package
@@ -119,6 +110,21 @@ This template follows a feature-based architecture with MVVM pattern:
 - learn first what is MVVM structural pattern
 - how to work with it
 - Customize the architecture to fit your needs
+
+---
+
+### Clone this Repository
+
+```bash
+cd yourprojectdirectory
+git clone https://github.com/JanrayCausaren/flutter-app-template.git
+```
+
+### Remove the existing Git history so it becomes a fresh project:
+
+```bash
+rm -rf .git
+```
 
 ---
 
