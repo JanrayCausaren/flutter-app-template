@@ -65,8 +65,8 @@ flutter pub global activate rename
 **Rename your project:**
 
 ```bash
-rename setAppName "Your App Name"
-rename setBundleId com.yourcompany.yourapp
+rename setAppName --value "Your App Name"  
+rename setBundleId --value com.yourcompany.yourapp
 ```
 
 This automatically updates:
