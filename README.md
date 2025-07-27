@@ -22,13 +22,12 @@ rm .git
 **Windows:**
 ```bash
 Get-ChildItem -Recurse -Filter .gitkeep | Remove-Item
-rm .git
 ```
 
 ### Run Flutter command to get all the dependencies
 
 ```bash
-run flutter pub get
+flutter pub get
 ```
 
 ## 📖 Overview
