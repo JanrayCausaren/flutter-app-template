@@ -2,6 +2,27 @@
 
 A clean, scalable Flutter project template designed for reuse across multiple projects. Includes architectural best practices and comprehensive renaming instructions.
 
+---
+### Clone this Repository
+
+```bash
+cd yourprojectdirectory
+git clone https://github.com/JanrayCausaren/flutter-app-template.git
+```
+
+### Remove the existing Git history so it becomes a fresh project:
+
+```bash
+cd yourprojectdirectory
+rm .git
+```
+
+### Run Flutter command to get all the dependencies
+
+```bash
+run flutter pub get
+```
+
 ## 📖 Overview
 
 This template provides a production-ready Flutter project structure with MVVM architecture. **Important**: This template requires proper renaming before development - it's not meant to be used with default identifiers.
@@ -111,21 +132,6 @@ This template follows a feature-based architecture with MVVM pattern:
 - how to work with it
 - Customize the architecture to fit your needs
 
----
-
-### Clone this Repository
-
-```bash
-cd yourprojectdirectory
-git clone https://github.com/JanrayCausaren/flutter-app-template.git
-```
-
-### Remove the existing Git history so it becomes a fresh project:
-
-```bash
-cd yourprojectdirectory
-rm -rf .git
-```
 
 ---
 
